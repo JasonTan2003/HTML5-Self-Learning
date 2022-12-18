@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--Seperate each css attribute with a semi colon -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+</head>
+<body>
+    <!--There is a onclick attribute that takes in js function. When the button is click the function is run.-->
+    <button onclick="doSomething()" style="background-color: #333333; color:#00FF00;border-radius: 20px"><big>Click me</big></button>
+
+    <p id="test">Hello</p>
+
+    <script>
+        function doSomething(){
+            document.getElementById("test").innerHTML = "Goodbye";
+        }
+    </script>
+</body>
+</html>
